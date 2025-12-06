@@ -24,6 +24,8 @@
         .project-title { font-weight: bold; color: var(--primary); display: block; margin-bottom: 0.3rem; }
         .btn { display: inline-block; background: var(--accent); color: #fff; padding: 0.5rem 1.2rem; text-decoration: none; border-radius: 4px; margin-top: 1rem; font-weight: 500; }
         .btn:hover { background: #2980b9; }
+        /* Style spécifique pour aligner les boutons de contact */
+        .contact-links { display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; margin-top: 1.5rem; }
         footer { text-align: center; padding: 2rem; color: #777; font-size: 0.9rem; }
         a { color: var(--accent); text-decoration: none; }
     </style>
@@ -38,9 +40,12 @@
         <h1>Dr. Dany Katamba Mpoyi</h1>
         <div class="subtitle">Postdoctoral Researcher @ Politecnico di Bari | SHM & AI Specialist</div>
         
-        <div class="keywords" style="justify-content: center; margin-top:1rem;">
-            <a href="cv.pdf" class="btn" target="_blank" download>📄 Télécharger mon CV</a>
-            <a href="mailto:katambadany@gmail.com" class="btn" style="background:#fff; color:#333; border:1px solid #ddd;">Me Contacter</a>
+        <div class="contact-links">
+            <a href="cv.pdf" class="btn" target="_blank" download>📄 Télécharger CV</a>
+            
+            <a href="mailto:katambadany@gmail.com" class="btn" style="background:#fff; color:#333; border:1px solid #ddd;">📧 Email</a>
+            
+            <a href="https://orcid.org/0000-0002-0216-7571" class="btn" style="background:#fff; color:#333; border:1px solid #ddd;" target="_blank">🆔 ORCID</a>
         </div>
     </div>
 </header>
